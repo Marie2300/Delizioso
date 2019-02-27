@@ -383,7 +383,7 @@ h3 {
     height: 110px;
 }
 
-#billede_rest img {
+#billede img {
     max-width: 100%;
 }
 
@@ -403,7 +403,7 @@ h3 {
 }
 
 @media only screen and (min-width: 648px) {
-    #billede_rest {
+    #billede {
         padding: 1rem 1rem 6.5vh 0rem;
     }
 }
