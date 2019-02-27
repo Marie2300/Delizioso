@@ -33,58 +33,6 @@ p {
     max-width: 270px;
 }
 
-/********** FOOTER *********/
-
-footer {
-    padding: 1.2rem;
-    background-color: #F7F5F0;
-    margin-top: 2rem;
-}
-
-footer p {
-    color: black;
-    font-size: 20px;
-}
-
-footer h3 {
-    color: black;
-    font-size: 30px;
-}
-
-#footer_logo {
-    background-image: url("motiver/kontakt.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 330px;
-    height: 335px;
-    padding: 1rem;
-}
-
-footer .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-footer .column {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1rem;
-    margin: 0 auto;
-}
-
-footer {
-    flex-grow: 1;
-    flex-basis: 200px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-
-}
-
-.container_footer {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-}
 
 /********************** MENU ***********************/
 
@@ -364,6 +312,32 @@ h3 {
     max-width: 270px;
 }
 
+/***************** OM OS ***************/
+
+#om_os {
+    padding-top: 5rem;
+    max-width: 800px;
+}
+
+#om_os h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#om_os p {
+    font-size: 20px;
+    margin: 2rem;
+}
+
+#om_os .container {
+    margin: 2rem;
+
+}
+
+#om_os .container img {
+    max-width: 100%;
+}
+
 /******************* KONTAKT *******************/
 
 #kontakt {
@@ -434,28 +408,55 @@ h3 {
     }
 }
 
-/***************** OM OS ***************/
+/********** FOOTER *********/
 
-#om_os {
-    padding-top: 5rem;
-    max-width: 800px;
+footer {
+    padding: 1.2rem;
+    background-color: #F7F5F0;
+    margin-top: 2rem;
 }
 
-#om_os h2 {
-    font-size: 40px;
-    text-align: center;
-}
-
-#om_os p {
+footer p {
+    color: black;
     font-size: 20px;
-    margin: 2rem;
 }
 
-#om_os .container {
-    margin: 2rem;
+footer h3 {
+    color: black;
+    font-size: 30px;
+}
+
+#footer_logo {
+    background-image: url("imgs/kontakt.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 330px;
+    height: 335px;
+    padding: 1rem;
+}
+
+footer .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .column {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+footer {
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
 }
 
-#om_os .container img {
-    max-width: 100%;
+.container_footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
 }
