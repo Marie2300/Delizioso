@@ -138,14 +138,12 @@ footer .buttom {
 header nav a:link,
 header nav a:visited,
 header nav a:active {
-    color: #241406;
+    color: black;
 }
 
 /* mouse over link */
 header nav a:hover {
     color: white;
-    background-color: black;
-
 }
 
 /* omslutter hele menubaren */
@@ -211,7 +209,6 @@ header nav a {
 }
 
 #menu_knap:hover {
-    background-color: black;
     color: white;
     cursor: pointer;
 }
@@ -258,8 +255,7 @@ header nav a {
 }
 
 #splash img {
-    margin: 3rem;
-    max-width: 100%;
+    width: 100%;
     display: flex;
 }
 
@@ -325,9 +321,10 @@ header nav a {
 
 #popup {
     margin: 20rem;
+    margin-left: 50rem;
     top: 0;
-    width: 50vw;
-    height: 50vh;
+    width: 20vw;
+    height: 30vh;
     position: fixed;
     background-color: white;
     display: none;
@@ -336,12 +333,11 @@ header nav a {
 
 #luk {
     position: fixed;
-    right: 24rem;
+    right: 33rem;
 }
 
 #luk button {
-    font-size: 2rem;
-    padding: 1rem 2rem;
+    font-size: 1rem;
     cursor: pointer;
 }
 
@@ -349,7 +345,7 @@ header nav a {
 
     display: flex;
     height: 50vh;
-    width: 50vw;
+    width: 20vw;
     margin-left: 4rem auto;
     text-align: center;
 }
