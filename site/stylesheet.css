@@ -330,7 +330,7 @@ h3 {
 }
 
 #om_os .container {
-    margin: 2rem;
+    margin-left: 6rem;
 
 }
 
@@ -384,6 +384,7 @@ h3 {
 }
 
 #billede img {
+    margin-left: 4rem;
     max-width: 100%;
 }
 
